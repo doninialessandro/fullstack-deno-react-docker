@@ -1,4 +1,4 @@
-This is an Mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 > :warning: **This is a learning project**, some best practices are out of scope
@@ -12,15 +12,13 @@ This is an Mission control panel based on [Deno](https://deno.land) and bootstra
 
 ## Getting Started
 
-First install the dependecies
-
-Then run the development server [`server`](./server):
+Run the development server [`server`](./server):
 ```bash
 npm run start-server
 ```
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
 
-Once the server is running [`client`](./client) run the following commands:
+Once the server is running run the following commands to start the [`client`](./client):
 ```bash
 npm install-and-start-client
 ```
