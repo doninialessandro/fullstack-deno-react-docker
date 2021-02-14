@@ -1,8 +1,8 @@
 # Multi-step
 # 1) node image for building frontend assets
-# 2) nginx stage to serve frontend assets
+# 2) nginx step to serve frontend assets
 
-# bulilder
+# builder
 FROM node:15.8.0-alpine3.10 AS builder
 # set working directory
 WORKDIR /app

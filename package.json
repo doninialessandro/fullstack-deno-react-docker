@@ -7,6 +7,8 @@
     "install-and-start-client": "cd client && npm install && npm start",
     "start-client": "cd client && npm start",
     "start-server": "cd server && denon start",
+    "start-app": "docker-compose up -d --build",
+    "stop-app": "docker-compose down",
     "commit": "git-cz"
   },
   "config": {

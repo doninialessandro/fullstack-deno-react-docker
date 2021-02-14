@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  server:
+    image: server-mission-control
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: server-mission-control
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+  client:
+    image: client-mission-control
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: client-mission-control
+    environment:
+      - API_ENDPOINT_PROTOCOL=http
+      - API_ENDPOINT_HOST=localhost
+      - API_ENDPOINT_PORT=8000
+    ports:
+      - "3000:80"
+    depends_on:
+      - "server"

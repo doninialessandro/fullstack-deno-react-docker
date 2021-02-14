@@ -11,16 +11,15 @@ This is an NASA Mission control panel based on [Deno](https://deno.land)
 
 ## Getting Started
 
-First, run the development server [`server`](./server):
+First install the dependecies
 
+Then run the development server [`server`](./server):
 ```bash
 npm run start-server
 ```
-
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
 
 Once the server is running [`client`](./client) run the following commands:
-
 ```bash
 npm install-and-start-client
 ```
@@ -28,7 +27,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Run with Docker
 
-TBD
+```bash
+npm run start-app
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+To stop the services: 
+```bash
+npm run stop-app
+```
 
 ## Backend API
 
