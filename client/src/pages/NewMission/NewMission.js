@@ -17,7 +17,7 @@ import { Hero, LaodingStatus } from '../../components'
 import usePlanets from '../../hooks/usePlanets'
 import { useLaunches, useScheduleLaunch } from '../../hooks/useLaunches'
 import { ReactComponent as ScheduleLaunch } from '../../assets/images/scheduleLaunch.svg'
-import { ReactComponent as Planets } from '../../assets/images/planetBue.svg'
+import { ReactComponent as Planet } from '../../assets/images/planet.svg'
 
 const NewMission = () => {
   const [lastMissionNumber, setLastMissionNUmber] = useState(0)
@@ -119,7 +119,7 @@ const NewMission = () => {
                 <ListItem>{`0.50 R⊕ < Planetary Radius < 1.50 R⊕`}</ListItem>
               </UnorderedList>
               <Box display="flex" justifyContent="flex-end" w="100%" mb={4}>
-                <Planets style={{ width: '45%', height: '45%' }} />
+                <Planet style={{ width: '45%', height: '45%' }} />
               </Box>
             </Box>
             <Stack

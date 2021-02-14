@@ -4,7 +4,7 @@
   "description": "Fullsact application using Deno and React",
   "private": true,
   "scripts": {
-    "start-instal-and-start": "cd client && npm install && npm start",
+    "install-and-start-client": "cd client && npm install && npm start",
     "start-client": "cd client && npm start",
     "start-server": "cd server && denon start",
     "commit": "git-cz"

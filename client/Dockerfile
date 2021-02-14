@@ -3,7 +3,7 @@
 # 2) nginx stage to serve frontend assets
 
 # bulilder
-FROM node:14 AS builder
+FROM node:15.8.0-alpine3.10 AS builder
 # set working directory
 WORKDIR /app
 # copy all files from current directory to working dir
@@ -13,8 +13,20 @@ RUN npm install
 RUN npm run build
 
 # nginx 
-FROM nginx:1.17
+FROM nginx:1.19.6-alpine
+# copy nginx config file
+RUN rm -rf /etc/nginx/conf.d
+COPY conf /etc/nginx
 # default folder from which nginx serve file
 WORKDIR /usr/share/nginx/html
 # copy static assets from builder step
 COPY --from=builder /app/build .
+# copy .env file and shell script to container
+COPY ./env.sh .
+COPY .env .
+# add bash
+RUN apk add --no-cache bash
+# make our shell script executable
+RUN chmod +x env.sh
+# start nginx server
+CMD ["/bin/bash", "-c", "/usr/share/nginx/html/env.sh && nginx -g \"daemon off;\""]

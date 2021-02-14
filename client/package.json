@@ -23,8 +23,8 @@
     "react-tsparticles": "^1.18.12"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
