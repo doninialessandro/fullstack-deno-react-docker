@@ -1,4 +1,5 @@
-This is an NASA Mission control panel based on [Deno](https://deno.land)
+This is an Mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 > :warning: **This is a learning project**, some best practices are out of scope
 > and the payment function works in test mode.
@@ -51,5 +52,7 @@ To learn more about Deno, take a look at the following resources:
 
 - [Deno Documentation](https://deno.land/manual) - learn about Deno
 
-### Credits 
-Inspired by [odziem/nasa-deno](https://github.com/odziem/nasa-deno) 
+To learn more about React, take a loot at the following resources:
+
+- [React documentation](https://reactjs.org/) - learn about React
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) - learn about CRA
