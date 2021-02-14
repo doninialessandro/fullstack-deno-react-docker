@@ -11,7 +11,7 @@ This is an NASA Mission control panel based on [Deno](https://deno.land)
 
 ## Getting Started
 
-First, run the development server from **server** folder:
+First, run the development server from [`server`](./server) folder:
 
 ```bash
 denon start
@@ -19,7 +19,7 @@ denon start
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
 
-Once the server is running go to **client** folder and run the following commands:
+Once the server is running go to [`client`](./client) folder and run the following commands:
 ```bash
 npm install
 npm start

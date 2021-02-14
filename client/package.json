@@ -27,14 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "commit": "git-cz",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
@@ -63,7 +57,6 @@
     ]
   },
   "devDependencies": {
-    "commitizen": "^4.2.3",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.2.0",

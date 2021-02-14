@@ -190,7 +190,7 @@ const NewMission = () => {
             subtitle="Schedule a mission launch for interstellar travel to one of the Kepler Exoplanets 🌍 🚀"
             image={<ScheduleLaunch style={{ width: '100%', height: '100%' }} />}
             ctaText="Source code"
-            ctaLink=""
+            ctaLink="https://github.com/doninialessandro/fullstack-deno-react-docker"
             disclaimer="This is not an official site. Illustrative purposes only"
           />
         </>

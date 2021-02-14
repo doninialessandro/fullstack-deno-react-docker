@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-deno-react-docker",
+  "version": "0.1.0",
+  "description": "Fullsact application using Deno and React",
+  "private": true,
+  "scripts": {
+    "start-instal-and-start": "cd client && npm install && npm start",
+    "start-client": "cd client && npm start",
+    "start-server": "cd server && denon start",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3"
+  }
+}
