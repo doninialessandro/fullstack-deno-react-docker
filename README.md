@@ -11,7 +11,7 @@ This is a mission control panel based on [Deno](https://deno.land) and bootstrap
 
 ## Getting Started
 
-Run the development server [`server`](./server):
+Run the development [`server`](./server):
 ```bash
 npm run start-server
 ```
