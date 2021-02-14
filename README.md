@@ -1,4 +1,4 @@
-This is an Mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 > :warning: **This is a learning project**, some best practices are out of scope
