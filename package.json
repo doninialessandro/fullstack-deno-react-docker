@@ -1,7 +1,7 @@
 {
   "name": "fullstack-deno-react-docker",
   "version": "0.1.0",
-  "description": "Fullsact application using Deno and React",
+  "description": "Fullstack application using Deno and React",
   "private": true,
   "scripts": {
     "install-and-start-client": "cd client && npm install && npm start",
