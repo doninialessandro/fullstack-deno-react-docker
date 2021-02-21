@@ -1,7 +1,6 @@
 This is a mission control panel based on [Deno](https://deno.land) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> :warning: **This is a learning project**, some best practices are out of scope
-> and the payment function works in test mode.
+> :warning: **This is a learning project**, some best practices are out of scope.
 
 ## Installation
 
